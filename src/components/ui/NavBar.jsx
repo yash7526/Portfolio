@@ -98,7 +98,6 @@ export default function NavBar({ sectionRefs }) {
         </a>
         <a
           ref={cta}
-          target="blank"
           className="button group relative hover:bg"
           href="/src/assets/Resume/Yash_Srivastava_resume_off (1).pdf"
         >
