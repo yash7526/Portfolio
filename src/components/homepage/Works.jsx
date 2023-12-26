@@ -1,8 +1,8 @@
 import ibgroup from "/src/assets/images/main.png";
-import memento from "/src/assets/images/memento-desktop.webp";
-import acc from "/src/assets/images/acc-square.webp";
-import daddy from "/src/assets/images/godaddy-desktop.webp";
-import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
+// import memento from "/src/assets/images/memento-desktop.webp";
+// import acc from "/src/assets/images/acc-square.webp";
+// import daddy from "/src/assets/images/godaddy-desktop.webp";
+// import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -29,7 +29,7 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         {/* Project #2 */}
-        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
+        {/* <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
             link="https://mementostudio.netlify.app/"
             img={memento}
@@ -73,7 +73,7 @@ export default function Works({ forwardedRef }) {
             tools="HTML • TailwindCSS • JavaScript"
           />
          
-        </div>
+        </div> */}
       </div>
     </section>
   );
