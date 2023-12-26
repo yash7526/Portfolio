@@ -4,12 +4,14 @@ import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
 
+
 export default function Contact() {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
   const heading = useRef(null)
   const body = useRef(null)
   const contactSection = useRef(null)
+  
 
   useEffect(() => {
     ScrollTrigger.create({
@@ -110,9 +112,11 @@ export default function Contact() {
                 </label>
               </div>
             </div>
+           
             <button
               type="submit"
               className="button group mt-10 border duration-200 hover:border-accent-400 hover:bg-transparent"
+              
             >
               <span className="relative">
                 <span className="absolute bottom-2 h-1 w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
@@ -121,6 +125,7 @@ export default function Contact() {
                 </span>
               </span>
             </button>
+           
           </form>
         </div>
         <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
@@ -128,7 +133,7 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="mailto:hello@huyng.xyz"
+                href="mailto:yashsrivastava7526@gmail.com"
                 className="group relative w-fit cursor-pointer"
                 target="_blank"
                 rel="noreferrer"
