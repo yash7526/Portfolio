@@ -100,7 +100,7 @@ export default function NavBar({ sectionRefs }) {
           ref={cta}
           target="blank"
           className="button group relative hover:bg"
-          href="/src/assets/Resume/Yash_Srivastava_resume_off (1).pdf"
+          href="https://drive.google.com/file/d/166-ZB3iQwSaPBb87nvtpS73cGD827Feb/view"
         >
           
           <span className="relative w-fit">
