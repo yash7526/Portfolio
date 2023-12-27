@@ -98,7 +98,6 @@ export default function NavBar({ sectionRefs }) {
         </a>
         <a
           ref={cta}
-          target="blank"
           className="button group relative hover:bg"
           href="https://drive.google.com/file/d/166-ZB3iQwSaPBb87nvtpS73cGD827Feb/view"
         >
