@@ -129,6 +129,22 @@ export default function Contact() {
           </form>
         </div>
         <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
+        <div className="space-y-3 ">
+            <h4 className="text-body-1 2xl:text-4xl font-semibold">Resume</h4>
+            <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
+              <a
+                href="https://drive.google.com/file/d/166-ZB3iQwSaPBb87nvtpS73cGD827Feb/view"
+                className="group relative w-fit cursor-pointer"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-body-1 2xl:text-4xl font-semibold">MY RESUME</span>
+                <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </a>
+              
+             
+            </div>
+          </div>
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
@@ -141,6 +157,7 @@ export default function Contact() {
                 <span>yashsrivastava7526@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
+              
              
             </div>
           </div>

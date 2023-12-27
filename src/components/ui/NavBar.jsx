@@ -96,9 +96,13 @@ export default function NavBar({ sectionRefs }) {
           <span>projects</span>
           <span className="absolute bottom-0 left-0 h-[0.125em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
         </a>
+        <a href="#contact" className="group relative hidden md:inline-block">
+          <span>contact</span>
+          <span className="absolute bottom-0 left-0 h-[0.125em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+        </a>
         <a
           ref={cta}
-          className="button group relative hover:bg"
+          className=" group relative hidden md:inline-block button group relative hover:bg"
           href="https://drive.google.com/file/d/166-ZB3iQwSaPBb87nvtpS73cGD827Feb/view"
         >
           
@@ -106,17 +110,7 @@ export default function NavBar({ sectionRefs }) {
             <span className="absolute bottom-2 h-[0.15em] w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
             <span>RESUME</span>
           </span>
-        </a> <a
-          ref={cta}
-          className="button group relative hover:bg-transparent"
-          href="#contact"
-        >
-          
-          <span className="relative w-fit">
-            <span className="absolute bottom-2 h-[0.15em] w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
-            <span>Let&apos;s Talk.</span>
-          </span>
-        </a>
+        </a> 
       </nav>
     </header>
   );
